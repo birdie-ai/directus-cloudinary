@@ -1,0 +1,30 @@
+{
+  "name": "cloudinary-updload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "npx rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "js-sha1": "^0.6.0",
+    "rollup": "^2.36.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-import-css": "^1.1.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "mount-vue-component": "^0.9.5",
+    "vue": "^2.6.12",
+    "vue-file-agent": "^1.7.3",
+    "vue2-dropzone": "^3.6.0"
+  }
+}

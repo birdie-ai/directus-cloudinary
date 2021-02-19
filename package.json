@@ -12,5 +12,9 @@
   "dependencies": {
     "directus": "^9.0.0-rc.37",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "rollup-plugin-inject-process-env": "^1.3.1"
   }
 }
